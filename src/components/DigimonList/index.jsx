@@ -4,7 +4,7 @@ const DigimonList = () => {
   const digimons = useSelector((state) => state.digimons);
 
   return (
-    <div>
+    <div className="bloco-list">
       <ul>
         {digimons.map(({ name, img, level }, index) => {
           return (

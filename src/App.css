@@ -3,17 +3,74 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: orange;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-img {
+section {
+  background-color: deepskyblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 110px;
+  justify-content: center;
+}
+
+section h2 {
+  margin: 0;
+  color: lavenderblush;
+}
+
+section div {
+  margin-top: 10px;
+}
+
+section div input {
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  padding-left: 10px;
+}
+
+section div button {
+  height: 35px;
+  margin-left: 10px;
+  border: 2px solid white;
+  background-color: deepskyblue;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.bloco-list {
+  margin-top: 20px;
+}
+
+.bloco-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bloco-list li {
+  background-color: deepskyblue;
+  width: 250px;
+  border: 2px solid white;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.bloco-list li img {
   width: 150px;
   height: 150px;
+  border: 5px solid orange;
+  border-radius: 15px;
 }

@@ -13,7 +13,6 @@ const Search = () => {
       <div>
         <input
           placeholder="Digimon..."
-          value={digimon}
           onChange={(evt) => setDigimon(evt.target.value)}
         />
         <button onClick={() => dispatch(addDigimonsThunk(digimon))}>
